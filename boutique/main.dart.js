@@ -12051,7 +12051,7 @@ return P.Q($async$Wv,r)}},T={
 yF:function(a){var s=0,r=P.R(t.KP),q,p,o,n,m,l,k,j,i
 var $async$yF=P.N(function(b,c){if(b===1)return P.O(c,r)
 while(true)switch(s){case 0:s=3
-return P.E(G.a9N(C.b.M("http://www.json-generator.com/api/json/get/",a)+"?indent=2"),$async$yF)
+return P.E(G.a9N(C.b.M("https://www.json-generator.com/api/json/get/",a)+"?indent=2"),$async$yF)
 case 3:i=c
 if(i.b===200){p=C.b4.df(0,B.a9M(U.a9k(i.e).c.a.h(0,"charset")).df(0,i.x))
 o=H.d([],t.xm)
