@@ -11,15 +11,15 @@
         "family": "e-Ukraine",
         "fonts": [
             {
-                "asset": "aiid/assets/fonts/e-Ukraine-Regular.otf"
+                "asset": "assets/fonts/e-Ukraine-Regular.otf"
             },
             {
                 "weight": 700,
-                "asset": "aiid/assets/fonts/e-Ukraine-Bold.otf"
+                "asset": "assets/fonts/e-Ukraine-Bold.otf"
             },
             {
                 "weight": 300,
-                "asset": "aiid/assets/fonts/e-Ukraine-Light.otf"
+                "asset": "assets/fonts/e-Ukraine-Light.otf"
             }
         ]
     },
