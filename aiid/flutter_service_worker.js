@@ -4,42 +4,42 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "991f7cecd648c425a38ed4790441bb37",
-"index.html": "7be6d01eb49c038da4fefa41178a73f3",
-"/": "7be6d01eb49c038da4fefa41178a73f3",
-"main.dart.js": "e66cbea8ca66bf5abcf86e7f7debec69",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "dfac9660e457d18de4b6ae52c9c2ac7d",
-"assets/AssetManifest.json": "0a2e2656bbdeea02f66afaf78b4b1abd",
-"assets/NOTICES": "6aeca6bf2ffc2e73993faa4b70f5b8b6",
-"assets/FontManifest.json": "3e432e2e23103665768f4a2f3e7fdbbb",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/assets/face.png": "763414b6219945636a192cee946e288f",
-"assets/assets/sign.png": "b3664ae17874302abe669ace3ac5fdf2",
-"assets/assets/logo.png": "f36bc2bf201df634a0703eeba6cc995c",
-"assets/assets/fonts/e-Ukraine-Bold.otf": "794162f5ab873e624c2e8adaef34aa73",
-"assets/assets/fonts/e-Ukraine-Light.otf": "99c471b10eb25b8f0f1fe76a04926b0f",
-"assets/assets/fonts/e-Ukraine-Regular.otf": "945426f5363c482553695c661ebc75a0"
+  "index.html": "7be6d01eb49c038da4fefa41178a73f3",
+  "/": "7be6d01eb49c038da4fefa41178a73f3",
+  "main.dart.js": "e66cbea8ca66bf5abcf86e7f7debec69",
+  "favicon.png": "5dcef449791fa27946b3d35ad8803796",
+  "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+  "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+  "manifest.json": "dfac9660e457d18de4b6ae52c9c2ac7d",
+  "aiid/assets/AssetManifest.json": "0a2e2656bbdeea02f66afaf78b4b1abd",
+  "aiid/assets/NOTICES": "6aeca6bf2ffc2e73993faa4b70f5b8b6",
+  "aiid/assets/FontManifest.json": "3e432e2e23103665768f4a2f3e7fdbbb",
+  "aiid/assets/packages/cupertino_icons/aiid/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+  "aiid/assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+  "aiid/assets/aiid/assets/face.png": "763414b6219945636a192cee946e288f",
+  "aiid/assets/aiid/assets/sign.png": "b3664ae17874302abe669ace3ac5fdf2",
+  "aiid/assets/aiid/assets/logo.png": "f36bc2bf201df634a0703eeba6cc995c",
+  "aiid/assets/aiid/assets/fonts/e-Ukraine-Bold.otf": "794162f5ab873e624c2e8adaef34aa73",
+  "aiid/assets/aiid/assets/fonts/e-Ukraine-Light.otf": "99c471b10eb25b8f0f1fe76a04926b0f",
+  "aiid/assets/aiid/assets/fonts/e-Ukraine-Regular.otf": "945426f5363c482553695c661ebc75a0"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
   "/",
-"main.dart.js",
-"index.html",
-"assets/NOTICES",
-"assets/AssetManifest.json",
-"assets/FontManifest.json"];
+  "main.dart.js",
+  "index.html",
+  "aiid/assets/NOTICES",
+  "aiid/assets/AssetManifest.json",
+  "aiid/assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value, {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, { 'cache': 'reload' })));
     })
   );
 });
@@ -47,8 +47,8 @@ self.addEventListener("install", (event) => {
 // During activate, the cache is populated with the temp files downloaded in
 // install. If this service worker is upgrading from one with a saved
 // MANIFEST, then use this to retain unchanged resource files.
-self.addEventListener("activate", function(event) {
-  return event.waitUntil(async function() {
+self.addEventListener("activate", function (event) {
+  return event.waitUntil(async function () {
     try {
       var contentCache = await caches.open(CACHE_NAME);
       var tempCache = await caches.open(TEMP);
@@ -126,7 +126,7 @@ self.addEventListener("fetch", (event) => {
     return onlineFirst(event);
   }
   event.respondWith(caches.open(CACHE_NAME)
-    .then((cache) =>  {
+    .then((cache) => {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
         // lazily populate the cache.

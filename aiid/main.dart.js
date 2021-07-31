@@ -17470,7 +17470,7 @@ rB(a){var s
 if(P.v3(a).gGT())return P.Kl(C.eY,a,C.Z,!1)
 s=this.gQt()
 if(s==null)s=""
-return P.Kl(C.eY,s+("assets/"+a),C.Z,!1)},
+return P.Kl(C.eY,s+("aiid/assets/"+a),C.Z,!1)},
 cG(a,b){return this.a0b(0,b)},
 a0b(a,b){var s=0,r=P.a9(t.yp),q,p=2,o,n=[],m=this,l,k,j,i,h,g,f,e
 var $async$cG=P.a4(function(c,d){if(c===1){o=d
@@ -33891,20 +33891,20 @@ if(p<q){k=j.oT(p)
 if(s.$2(a,k)>0){C.b.n(j.b,b,k)
 b=p}}C.b.n(j.b,b,a)}}
 E.zE.prototype={
-N(a,b){var s=null,r=U.Qn(new L.iX("assets/logo.png")),q=L.cs(this.c,A.d0(s,s,s,s,s,s,s,s,s,s,s,15,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),p=H.a([new T.c4(new V.aw(0,10,20,0),B.a9A(s,C.qc,24,new E.NI(),C.pu,"QR Code Scanner"),s)],t.E)
+N(a,b){var s=null,r=U.Qn(new L.iX("aiid/assets/logo.png")),q=L.cs(this.c,A.d0(s,s,s,s,s,s,s,s,s,s,s,15,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),p=H.a([new T.c4(new V.aw(0,10,20,0),B.a9A(s,C.qc,24,new E.NI(),C.pu,"QR Code Scanner"),s)],t.E)
 return new E.q6(new T.c4(new V.aw(20,10,0,0),r,s),new T.c4(new V.aw(0,10,0,0),q,s),p,0,C.aw,C.m,new E.Il(70,s,1/0,70),70,80,s)}}
 E.NI.prototype={
 $0(){},
 $S:0}
 R.zO.prototype={
 N(a,b){var s=null,r=L.cs("\u041f\u043e\u0441\u0432\u0456\u0434\u0447\u0435\u043d\u043d\u044f\n\u0432\u043e\u0434\u0456\u044f",A.d0(s,s,s,s,s,s,s,s,s,s,s,27,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),q=t.E,p=T.qt(H.a([L.cs("\u0414\u0456\u044f\n\u041d\u0430\u0434\u0456\u044f\n\u0412\u043e\u043b\u043e\u0434\u0438\u043c\u0438\u0440\u0456\u0432\u043d\u0430",s,s,s),L.cs("\u0414\u0430\u0442\u0430\n\u043d\u0430\u0440\u043e\u0434\u0436\u0435\u043d\u043d\u044f:\n24.08.1991",s,s,s),L.cs("\u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0456\u0457: B, C",s,s,s),L.cs("\u0414\u0456\u0439\u0441\u043d\u0435 \u0434\u043e: 20.05.2024",s,s,s)],q),C.b5,C.br,C.ar),o=this.c,n=F.a4N(o,2.5)
-return new T.c4(new V.aw(20,30,20,30),T.qt(H.a([new T.c4(new V.aw(0,0,0,30),r,s),T.A1(T.lp(H.a([p,M.eZ(s,U.Qn(new L.iX("assets/face.png")),s,new S.c9(s,s,n,s,s,s,C.I),s,new V.aw(0,0,0,15),s,s)],q),C.b5,C.br,C.ar),1),new Z.dX(50,2.5,0,0,o,s),new T.c4(new V.aw(0,0,0,70),L.cs("\u0412\u0438\u0434\u0430\u0432:\n\u0422\u0421\u0426 0000",s,s,s),s),T.lp(H.a([L.cs("\u0414\u04060000\u0406\u042f",A.d0(s,s,s,s,s,s,s,s,s,s,s,35,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),new X.rW(new R.Oe(),s)],q),C.b6,C.br,C.ar)],q),C.b5,C.bb,C.ar),s)}}
+return new T.c4(new V.aw(20,30,20,30),T.qt(H.a([new T.c4(new V.aw(0,0,0,30),r,s),T.A1(T.lp(H.a([p,M.eZ(s,U.Qn(new L.iX("aiid/assets/face.png")),s,new S.c9(s,s,n,s,s,s,C.I),s,new V.aw(0,0,0,15),s,s)],q),C.b5,C.br,C.ar),1),new Z.dX(50,2.5,0,0,o,s),new T.c4(new V.aw(0,0,0,70),L.cs("\u0412\u0438\u0434\u0430\u0432:\n\u0422\u0421\u0426 0000",s,s,s),s),T.lp(H.a([L.cs("\u0414\u04060000\u0406\u042f",A.d0(s,s,s,s,s,s,s,s,s,s,s,35,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),new X.rW(new R.Oe(),s)],q),C.b6,C.br,C.ar)],q),C.b5,C.bb,C.ar),s)}}
 R.Oe.prototype={
 $0(){},
 $S:0}
 X.tj.prototype={
 N(a,b){var s=null,r=L.cs("\u041f\u0430\u0441\u043f\u043e\u0440\u0442 \u0433\u0440\u043e\u043c\u0430\u0434\u044f\u043d\u0438\u043d\u0430 \u0423\u043a\u0440\u0430\u0457\u043d\u0438 <\u0442\u0440\u0438\u0437\u0443\u0431>",A.d0(s,s,s,s,s,s,s,s,s,s,s,25,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),q=this.c,p=F.a4N(q,2.5),o=t.E
-return new T.c4(new V.aw(20,35,20,35),T.qt(H.a([r,T.A1(new T.c4(new V.aw(0,35,0,5),T.lp(H.a([M.eZ(s,U.Qn(new L.iX("assets/face.png")),s,new S.c9(s,s,p,s,s,s,C.I),s,new V.aw(0,0,20,0),s,s),T.qt(H.a([L.cs("\u0414\u0430\u0442\u0430\n\u043d\u0430\u0440\u043e\u0434\u0436\u0435\u043d\u043d\u044f:\n24.08.1991",s,s,s),T.jD(s,20,s),L.cs("\u041d\u043e\u043c\u0435\u0440:\n000000000",s,s,s),T.jD(s,50,s),T.A1(U.Qn(new L.iX("assets/sign.png")),1)],o),C.b5,C.bb,C.ar)],o),C.b6,C.bb,C.ar),s),1),new Z.dX(40,2.5,0,0,q,s),T.lp(H.a([L.cs("\u0414\u0456\u044f\n\u041d\u0430\u0434\u0456\u044f\n\u0412\u043e\u043b\u043e\u0434\u0438\u043c\u0438\u0440\u0456\u0432\u043d\u0430",A.d0(s,s,s,s,s,s,s,s,s,s,s,25,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),new X.rW(new X.T6(),s)],o),C.eC,C.br,C.ar)],o),C.b5,C.bb,C.ar),s)}}
+return new T.c4(new V.aw(20,35,20,35),T.qt(H.a([r,T.A1(new T.c4(new V.aw(0,35,0,5),T.lp(H.a([M.eZ(s,U.Qn(new L.iX("aiid/assets/face.png")),s,new S.c9(s,s,p,s,s,s,C.I),s,new V.aw(0,0,20,0),s,s),T.qt(H.a([L.cs("\u0414\u0430\u0442\u0430\n\u043d\u0430\u0440\u043e\u0434\u0436\u0435\u043d\u043d\u044f:\n24.08.1991",s,s,s),T.jD(s,20,s),L.cs("\u041d\u043e\u043c\u0435\u0440:\n000000000",s,s,s),T.jD(s,50,s),T.A1(U.Qn(new L.iX("aiid/assets/sign.png")),1)],o),C.b5,C.bb,C.ar)],o),C.b6,C.bb,C.ar),s),1),new Z.dX(40,2.5,0,0,q,s),T.lp(H.a([L.cs("\u0414\u0456\u044f\n\u041d\u0430\u0434\u0456\u044f\n\u0412\u043e\u043b\u043e\u0434\u0438\u043c\u0438\u0440\u0456\u0432\u043d\u0430",A.d0(s,s,s,s,s,s,s,s,s,s,s,25,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),new X.rW(new X.T6(),s)],o),C.eC,C.br,C.ar)],o),C.b5,C.bb,C.ar),s)}}
 X.T6.prototype={
 $0(){},
 $S:0}
