@@ -16,12 +16,12 @@ const RESOURCES = {
   "aiid/assets/FontManifest.json": "3e432e2e23103665768f4a2f3e7fdbbb",
   "aiid/assets/packages/cupertino_icons/aiid/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
   "aiid/assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-  "aiid/assets/aiid/assets/face.png": "763414b6219945636a192cee946e288f",
-  "aiid/assets/aiid/assets/sign.png": "b3664ae17874302abe669ace3ac5fdf2",
-  "aiid/assets/aiid/assets/logo.png": "f36bc2bf201df634a0703eeba6cc995c",
-  "aiid/assets/aiid/assets/fonts/e-Ukraine-Bold.otf": "794162f5ab873e624c2e8adaef34aa73",
-  "aiid/assets/aiid/assets/fonts/e-Ukraine-Light.otf": "99c471b10eb25b8f0f1fe76a04926b0f",
-  "aiid/assets/aiid/assets/fonts/e-Ukraine-Regular.otf": "945426f5363c482553695c661ebc75a0"
+  "aiid/assets/assets/face.png": "763414b6219945636a192cee946e288f",
+  "aiid/assets/assets/sign.png": "b3664ae17874302abe669ace3ac5fdf2",
+  "aiid/assets/assets/logo.png": "f36bc2bf201df634a0703eeba6cc995c",
+  "aiid/assets/assets/fonts/e-Ukraine-Bold.otf": "794162f5ab873e624c2e8adaef34aa73",
+  "aiid/assets/assets/fonts/e-Ukraine-Light.otf": "99c471b10eb25b8f0f1fe76a04926b0f",
+  "aiid/assets/assets/fonts/e-Ukraine-Regular.otf": "945426f5363c482553695c661ebc75a0"
 };
 
 // The application shell files that are downloaded before a service worker can
