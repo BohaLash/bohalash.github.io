@@ -14,7 +14,7 @@ const RESOURCES = {
   "aiid/assets/AssetManifest.json": "0a2e2656bbdeea02f66afaf78b4b1abd",
   "aiid/assets/NOTICES": "6aeca6bf2ffc2e73993faa4b70f5b8b6",
   "aiid/assets/FontManifest.json": "3e432e2e23103665768f4a2f3e7fdbbb",
-  "aiid/assets/packages/cupertino_icons/aiid/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+  "aiid/assets/packages/cupertino_icons//assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
   "aiid/assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
   "aiid/assets/assets/face.png": "763414b6219945636a192cee946e288f",
   "aiid/assets/assets/sign.png": "b3664ae17874302abe669ace3ac5fdf2",
