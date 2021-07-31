@@ -1,1 +1,23 @@
-{"aiid/assets/face.png":["aiid/assets/face.png"],"aiid/assets/fonts/e-Ukraine-Bold.otf":["aiid/assets/fonts/e-Ukraine-Bold.otf"],"aiid/assets/fonts/e-Ukraine-Light.otf":["aiid/assets/fonts/e-Ukraine-Light.otf"],"aiid/assets/fonts/e-Ukraine-Regular.otf":["aiid/assets/fonts/e-Ukraine-Regular.otf"],"aiid/assets/logo.png":["aiid/assets/logo.png"],"aiid/assets/sign.png":["aiid/assets/sign.png"],"packages/cupertino_icons/aiid/assets/CupertinoIcons.ttf":["packages/cupertino_icons/aiid/assets/CupertinoIcons.ttf"]}
+{
+    "aiid/assets/face.png": [
+        "aiid/assets/face.png"
+    ],
+    "aiid/assets/fonts/e-Ukraine-Bold.otf": [
+        "aiid/assets/fonts/e-Ukraine-Bold.otf"
+    ],
+    "aiid/assets/fonts/e-Ukraine-Light.otf": [
+        "aiid/assets/fonts/e-Ukraine-Light.otf"
+    ],
+    "aiid/assets/fonts/e-Ukraine-Regular.otf": [
+        "aiid/assets/fonts/e-Ukraine-Regular.otf"
+    ],
+    "aiid/assets/logo.png": [
+        "aiid/assets/logo.png"
+    ],
+    "aiid/assets/sign.png": [
+        "aiid/assets/sign.png"
+    ],
+    "packages/cupertino_icons/assets/CupertinoIcons.ttf": [
+        "packages/cupertino_icons/assets/CupertinoIcons.ttf"
+    ]
+}

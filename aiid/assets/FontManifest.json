@@ -1,1 +1,34 @@
-[{"family":"MaterialIcons","fonts":[{"asset":"fonts/MaterialIcons-Regular.otf"}]},{"family":"e-Ukraine","fonts":[{"asset":"aiid/assets/fonts/e-Ukraine-Regular.otf"},{"weight":700,"asset":"aiid/assets/fonts/e-Ukraine-Bold.otf"},{"weight":300,"asset":"aiid/assets/fonts/e-Ukraine-Light.otf"}]},{"family":"packages/cupertino_icons/CupertinoIcons","fonts":[{"asset":"packages/cupertino_icons/aiid/assets/CupertinoIcons.ttf"}]}]
+[
+    {
+        "family": "MaterialIcons",
+        "fonts": [
+            {
+                "asset": "fonts/MaterialIcons-Regular.otf"
+            }
+        ]
+    },
+    {
+        "family": "e-Ukraine",
+        "fonts": [
+            {
+                "asset": "aiid/assets/fonts/e-Ukraine-Regular.otf"
+            },
+            {
+                "weight": 700,
+                "asset": "aiid/assets/fonts/e-Ukraine-Bold.otf"
+            },
+            {
+                "weight": 300,
+                "asset": "aiid/assets/fonts/e-Ukraine-Light.otf"
+            }
+        ]
+    },
+    {
+        "family": "packages/cupertino_icons/CupertinoIcons",
+        "fonts": [
+            {
+                "asset": "packages/cupertino_icons/assets/CupertinoIcons.ttf"
+            }
+        ]
+    }
+]
