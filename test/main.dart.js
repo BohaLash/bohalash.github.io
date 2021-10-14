@@ -21752,7 +21752,7 @@ V_(a){var s=0,r=A.V(t.kc),q,p,o
 var $async$V_=A.R(function(b,c){if(b===1)return A.S(c,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.a_(A.atc(A.jo("https://medius-work.com/api/sidelka/anketa.php?l=ru"),A.az(["Authorization",a],p,p)),$async$V_)
+return A.a_(A.atc(A.jo("https://medius-work.com/api/sidelka/anketa.php?l=ru"),A.az(["Authorization",a,"Access-Control-Allow-Origin","*"],p,p)),$async$V_)
 case 3:o=c
 if(o.b===200){q=B.ac.nw(0,A.Ud(A.U0(o.e).c.a.i(0,"charset")).d6(0,o.x),null)
 s=1
@@ -21765,7 +21765,7 @@ if(b.length===0){q=!0
 s=1
 break}p=A.jo("https://medius-work.com/api/sidelka/anketa.php")
 o=t.N
-o=A.az(["Authorization",a,"Content-Type","application/json; charset=UTF-8"],o,o)
+o=A.az(["Authorization",a,"Content-Type","application/json; charset=UTF-8","Access-Control-Allow-Origin","*"],o,o)
 s=3
 return A.a_(A.aiP(p,B.ac.N9(b,null),o),$async$V0)
 case 3:q=d.b===200
@@ -21794,13 +21794,15 @@ s=1
 break}case 1:return A.T(q,r)}})
 return A.U($async$Vp,r)},
 Vo(a){return A.az9(a)},
-az9(a){var s=0,r=A.V(t.nA),q,p,o
+az9(a){var s=0,r=A.V(t.nA),q,p,o,n,m
 var $async$Vo=A.R(function(b,c){if(b===1)return A.S(c,r)
-while(true)switch(s){case 0:p=t.N
+while(true)switch(s){case 0:p=A.jo("https://medius-work.com/api/sidelka/refresh_token.php")
+o=t.N
+n=A.az(["Access-Control-Allow-Origin","*"],o,o)
 s=3
-return A.a_(A.aiP(A.jo("https://medius-work.com/api/sidelka/refresh_token.php"),A.az(["refresh_key",a],p,p),null),$async$Vo)
-case 3:o=c
-if(o.b===200){q=B.ac.nw(0,A.Ud(A.U0(o.e).c.a.i(0,"charset")).d6(0,o.x),null)
+return A.a_(A.aiP(p,A.az(["refresh_key",a],o,o),n),$async$Vo)
+case 3:m=c
+if(m.b===200){q=B.ac.nw(0,A.Ud(A.U0(m.e).c.a.i(0,"charset")).d6(0,m.x),null)
 s=1
 break}case 1:return A.T(q,r)}})
 return A.U($async$Vo,r)},
@@ -21808,7 +21810,7 @@ Vm(a){var s=0,r=A.V(t.nA),q,p,o
 var $async$Vm=A.R(function(b,c){if(b===1)return A.S(c,r)
 while(true)switch(s){case 0:p=t.N
 s=3
-return A.a_(A.atc(A.jo("https://medius-work.com/api/sidelka/user.php?i-am-secure=false"),A.az(["Authorization",a],p,p)),$async$Vm)
+return A.a_(A.atc(A.jo("https://medius-work.com/api/sidelka/user.php?i-am-secure=false"),A.az(["Authorization",a,"Access-Control-Allow-Origin","*"],p,p)),$async$Vm)
 case 3:o=c
 if(o.b===200){q=B.ac.nw(0,A.Ud(A.U0(o.e).c.a.i(0,"charset")).d6(0,o.x),null)
 s=1
